@@ -1,0 +1,3 @@
+sort1 uses: Bubble Sort
+sort2 uses: Merge Sort
+sort3 uses: Selection Sort

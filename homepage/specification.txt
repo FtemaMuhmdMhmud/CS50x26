@@ -1,0 +1,21 @@
+10 HTML Tags Used:
+1. <nav>
+2. <a>
+3. <div>
+4. <h1>
+5. <p>
+6. <button>
+7. <ul>
+8. <ol>
+9. <form>
+10. <label>
+5 CSS Properties Used:
+1. background-color
+2. font-family
+3. color
+4. margin
+5. font-size
+Bootstrap Feature:
+Used Bootstrap classes (btn, btn-primary, form-control, mb-4) for clean buttons and form inputs.
+JavaScript Feature:
+Used functions in script.js to show an alert message and display a confirmation text when submitting the contact form.
