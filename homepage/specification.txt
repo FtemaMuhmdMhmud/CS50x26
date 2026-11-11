@@ -1,21 +1,24 @@
-10 HTML Tags Used:
-1. <nav>
-2. <a>
-3. <div>
-4. <h1>
-5. <p>
-6. <button>
-7. <ul>
-8. <ol>
-9. <form>
-10. <label>
-5 CSS Properties Used:
+HTML Tags Used (10 distinct tags):
+1. <!DOCTYPE>
+2. <html>
+3. <head>
+4. <meta>
+5. <title>
+6. <link>
+7. <body>
+8. <nav>
+9. <div>
+10. <a>
+
+CSS Properties Used (5 distinct properties):
 1. background-color
 2. font-family
 3. color
-4. margin
-5. font-size
-Bootstrap Feature:
-Used Bootstrap classes (btn, btn-primary, form-control, mb-4) for clean buttons and form inputs.
-JavaScript Feature:
-Used functions in script.js to show an alert message and display a confirmation text when submitting the contact form.
+4. transition
+5. transform
+
+Bootstrap Description:
+Used Bootstrap 5 (including classes like navbar, container, row, col-md-4, card, and buttons) to quickly build a responsive, clean, and modern layout that looks great on both mobile devices and desktops.
+
+JavaScript Description:
+Integrated a simple interactive event listener on a button that triggers a customized welcome alert message when clicked by the user.

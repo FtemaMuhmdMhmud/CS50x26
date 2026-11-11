@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> فاطمة | تواصل معي</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"> فاطمة</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">عني</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">هواياتي واهتماماتي</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">تواصل معي</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h2 class="text-center mb-4 fw-bold">سيب لي رسالة أو تواصل معي</h2>
+
+                <!-- Contact info cards -->
+                <div class="row text-center mb-4">
+                    <div class="col-md-6 mb-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                            <strong>البريد الإلكتروني:</strong>
+                            <p class="text-muted mb-0 small" dir="ltr">alyfmm1423@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="p-3 border rounded bg-white shadow-sm">
+                            <strong>الرقم التعريفي:</strong>
+                            <p class="text-muted mb-0 small" dir="ltr">025097251</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-4 shadow-sm custom-card">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">اسمك الكريم</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="اكتب اسمك هنا" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">إيميلك الشخصي</label>
+                            <input type="email5" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="msgInput" class="form-label">الرسالة أو الاستفسار</label>
+                            <textarea class="form-control" id="msgInput" rows="4" placeholder="اكتب رسالتك هنا..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="index.html" class="btn btn-dark">الرجوع للرئيسية</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p class="mb-0">جميع الحقوق محفوظة &copy; 2026 |  فاطمة</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('تم إرسال رسالتك بنجاح! شكراً لتواصلك.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

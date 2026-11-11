@@ -1,0 +1,1 @@
+In this project, I used SQL queries to explore a database of songs. I utilized basic commands like SELECT and WHERE to filter tracks, ORDER BY and LIMIT to find top lists like the longest or most energetic songs, and aggregate functions like AVG to calculate average metrics. I also used JOIN operations to connect songs with their respective artists for more specific queries.
